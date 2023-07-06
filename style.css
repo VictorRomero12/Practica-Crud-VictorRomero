@@ -1,0 +1,105 @@
+
+body {
+    margin: 0 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-transparente-textura-lapices-colores-utiles-escolares-impresos-sobre-tema-dibujo_619989-151.jpg?w=2000);
+}
+  h1
+  {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 1.5px solid rgb(0, 0, 0); border-radius: 7px;
+    background-color:rgb(255, 255, 255); 
+    padding: 10px;
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: auto;
+   
+    
+  }
+  
+  .container {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(149, 255, 2);
+    width: 850px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-1
+  {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    padding: auto;
+    margin-left: 50px;
+
+  
+}
+.boton
+{
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: 90px;
+    background-color: white;
+  
+}
+  .fas
+  {
+    color: rgb(8, 8, 8);
+  }
+  #post {
+    width: 400px;
+  }
+  
+  #post div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right
+  {
+    justify-content: right;
+  }
+  
+  .options {
+    display: flex;
+    gap: 25px;
+  }
+  .comment
+  {
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+
+
+  }
+  
+  i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #post p {
+    word-wrap: break-word;
+    width: 100%;
+    margin-right: 5px;
+    
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

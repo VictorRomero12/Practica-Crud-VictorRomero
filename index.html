@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>CRUD Red social</h1>
+    <div class="container">
+        <div class="left">
+            <form id="form">
+                <label class="text-1">Escribe un comentario...</label>
+                <br>
+                <textarea id="textarea" class="comment" cols="30" rows="10"></textarea>
+                <br>
+                <div id="msg"></div>
+                <button type="submit" class="boton">Comentar</button>
+            </form>
+        </div> 
+        <div class="right">
+            <h3>Tus comentarios están aquí</h3>
+            <div id="post">
+                <div>
+                    <p class="comment">Comentario 1</p>
+                    <span class="options">
+                        <i onclick="editpost(this)" class="fas fa-edit"></i>
+                        <i onclick="deletepost(this)" class="fas fa-trash-alt"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
